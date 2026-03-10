@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  body{
+    @apply bg-neutral-950 text-white
+  }
+
+  .flex-space-between {
+    @apply flex justify-between items-center
+  }
+
+  .Active {
+    @apply bg-[#F66D14] text-white px-4 py-2 rounded-full
+
+  }
+
+  .row {
+    @apply flex items-center justify-center  gap-x-10 
+  }
